@@ -2,8 +2,7 @@
  File Transfer Protocol for the Playstation Portable, using the default web-browser
 
 ## Previous Requirements
- - an unsecured WIFI where both the PSP and the server will be conncted to
- - a computer
+ - An unsecured WIFI where both the PSP and the server will be conncted to (this could be a mobile hotspot)
 
 ## Getting Started
 
@@ -22,6 +21,6 @@ Run the server using:
 npm start
 ```
 
-Your Client will be available at: \n 
+Your Client will be available at:
 - Network:  `http://{computerIp}:3000`
 - Localhost:`http://localhost:3000`
