@@ -3,9 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
   <title>My Page Title</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-  <body style="display:flex; flex-direction: column; text-align:center; background: url('pattern-590.gif') center center repeat; background-size: 32rem;">
-    <h1 style="font-weight:bold; font-size:2rem;">PSP-FTP</h1>
+
+  <body>
+    <h1>PSP-FTP</h1>
     <% files.forEach(function(file) { %>
       <a href="/<%= file %>"><%= file %></a><br />
     <% }); %>

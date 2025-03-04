@@ -1,0 +1,17 @@
+body {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    background: url('pattern-590.gif') center center repeat;
+    background-size: 32rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-weight:bold;
+  font-size:4rem;
+}
+
+a {
+    font-size:1.5rem;
+}
